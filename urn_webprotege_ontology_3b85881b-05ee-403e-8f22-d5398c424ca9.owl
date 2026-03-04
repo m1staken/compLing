@@ -1,0 +1,3396 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:3b85881b-05ee-403e-8f22-d5398c424ca9#"
+     xml:base="urn:webprotege:ontology:3b85881b-05ee-403e-8f22-d5398c424ca9"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:3b85881b-05ee-403e-8f22-d5398c424ca9"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>Готовится с помощью</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>Хранится в</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R45oY47EqQYTod6qDdGjne -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R45oY47EqQYTod6qDdGjne">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RaEDjL5GDyF9r7pBR6Y8t9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8cAXl8EcxOLKkKtKctPIXU"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Замороженные продукты</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R5IDGHfBL3bbdB2GXOFSsS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R5IDGHfBL3bbdB2GXOFSsS">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDFIZRA5YGnj9NyDdlurATy"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Копчёная рыба</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R76hJLdnAr5O1MsZruwPIaa -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R76hJLdnAr5O1MsZruwPIaa">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8PMBKZakzJQwWE06v7dtMn"/>
+        <rdfs:label>Варка</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R77CloLc7PjbOBLA7tI4XC0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R77CloLc7PjbOBLA7tI4XC0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7ojm4KKHO41ci6p5NmU6yX"/>
+        <rdfs:label>Говядина</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7PF8WiPWs8aMaHWX1dcH8H -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7PF8WiPWs8aMaHWX1dcH8H">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RD2zvgSNEVOPSjYUMwBY2QJ"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Безлактозные продукты</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7aS33EFaLO42gqZYUpVgbM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7aS33EFaLO42gqZYUpVgbM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9p9yNXBT02HmVujGO0GNWV"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R76hJLdnAr5O1MsZruwPIaa"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RG1XS9IluPsEO8E6B4QuWP"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Бобовые</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7afUGd8Qnjm5L7Iw1q68Yx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7afUGd8Qnjm5L7Iw1q68Yx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCuM2EFbnu94KJzvKccYqSL"/>
+        <rdfs:label>Тёмное место</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7ef9THmLkZH7BmS4J0m4dD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7ef9THmLkZH7BmS4J0m4dD">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RS0QVvlUuBt47MTBj4NfdO"/>
+        <rdfs:label>Индейка</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7gxcnnrTMbsXxAp9LtJBcm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7gxcnnrTMbsXxAp9LtJBcm">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RaEDjL5GDyF9r7pBR6Y8t9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9uB23tjy3ppeIImgaoFNuU"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Хлеб и выпечка</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7hXIJI4thNQN1AUFFChYs3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7hXIJI4thNQN1AUFFChYs3">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RD2zvgSNEVOPSjYUMwBY2QJ"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Кисломолочные продукты</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7ojm4KKHO41ci6p5NmU6yX -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7ojm4KKHO41ci6p5NmU6yX">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RaEDjL5GDyF9r7pBR6Y8t9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R76hJLdnAr5O1MsZruwPIaa"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RG1XS9IluPsEO8E6B4QuWP"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RSfjKqAq31DlY5odTWWXIL"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8cAXl8EcxOLKkKtKctPIXU"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Мясо</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7qukum1RnVh97TR5kOc7gW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7qukum1RnVh97TR5kOc7gW">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDFIZRA5YGnj9NyDdlurATy"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Консервы</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7xNL3PwLVUi6Wx711DAvqD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7xNL3PwLVUi6Wx711DAvqD">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8brDsOJULXGatmYNOcbgKo"/>
+        <rdfs:label>Сухофрукты</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R85G3YPE4KK1vb2emUTPP8h -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R85G3YPE4KK1vb2emUTPP8h">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RD2zvgSNEVOPSjYUMwBY2QJ"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Йогурты</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R88SCpCoWR9xnoEz63hqOoT -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R88SCpCoWR9xnoEz63hqOoT">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RaEDjL5GDyF9r7pBR6Y8t9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R76hJLdnAr5O1MsZruwPIaa"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9uB23tjy3ppeIImgaoFNuU"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Кофе</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8GtUMVTPcQ8C3ofgtG6jjF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8GtUMVTPcQ8C3ofgtG6jjF">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RMMl4dJFLNqpah1RgShk2d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R76hJLdnAr5O1MsZruwPIaa"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RG1XS9IluPsEO8E6B4QuWP"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Макароны</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8NXMV1c08TiCca7zaQ8IMP -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8NXMV1c08TiCca7zaQ8IMP">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RaEDjL5GDyF9r7pBR6Y8t9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9uB23tjy3ppeIImgaoFNuU"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Орехи</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8PMBKZakzJQwWE06v7dtMn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8PMBKZakzJQwWE06v7dtMn">
+        <rdfs:label>Способы приготовления</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8ZT9G2ePmnYrmJi5cGMwM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8ZT9G2ePmnYrmJi5cGMwM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9JkguUjmOC0mUwKmawAWib"/>
+        <rdfs:label>Безалкогольные напитки</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8brDsOJULXGatmYNOcbgKo -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8brDsOJULXGatmYNOcbgKo">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RaEDjL5GDyF9r7pBR6Y8t9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9uB23tjy3ppeIImgaoFNuU"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Фрукты</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8cAXl8EcxOLKkKtKctPIXU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8cAXl8EcxOLKkKtKctPIXU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCuM2EFbnu94KJzvKccYqSL"/>
+        <rdfs:label>Морозильник</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8d8vuyKFvSkpvh5teEPVzV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8d8vuyKFvSkpvh5teEPVzV">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7ojm4KKHO41ci6p5NmU6yX"/>
+        <rdfs:label>Свинина</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8PMBKZakzJQwWE06v7dtMn"/>
+        <rdfs:label>Готов к употреблению</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8xlZCWtX5S3lt7VgBcXXsG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8xlZCWtX5S3lt7VgBcXXsG">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9p9yNXBT02HmVujGO0GNWV"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Зелень</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8zJOKkR0cIuL2hQksxpqzv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8zJOKkR0cIuL2hQksxpqzv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RaEDjL5GDyF9r7pBR6Y8t9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R76hJLdnAr5O1MsZruwPIaa"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9uB23tjy3ppeIImgaoFNuU"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Чай</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9ANamx5baV599mtyUL0woL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9ANamx5baV599mtyUL0woL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RMMl4dJFLNqpah1RgShk2d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Соусы</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9JkguUjmOC0mUwKmawAWib -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9JkguUjmOC0mUwKmawAWib">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RaEDjL5GDyF9r7pBR6Y8t9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7afUGd8Qnjm5L7Iw1q68Yx"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Напитки</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9TuUmt1i5X2JVOua7Ec8vp -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9TuUmt1i5X2JVOua7Ec8vp">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ckTHfraXFkdCIcvHx32Ph"/>
+        <rdfs:label>Шоколад</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9WTFmRbfqpG4KCqS93bAzr -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9WTFmRbfqpG4KCqS93bAzr">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RaEDjL5GDyF9r7pBR6Y8t9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R76hJLdnAr5O1MsZruwPIaa"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RG1XS9IluPsEO8E6B4QuWP"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8cAXl8EcxOLKkKtKctPIXU"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Морепродукты</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9XC4RUsXGv6rrT8mins0zF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9XC4RUsXGv6rrT8mins0zF">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R45oY47EqQYTod6qDdGjne"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Мороженое</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9bKTSqJqoqPWynr3Y33shD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9bKTSqJqoqPWynr3Y33shD">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9p9yNXBT02HmVujGO0GNWV"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R76hJLdnAr5O1MsZruwPIaa"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RG1XS9IluPsEO8E6B4QuWP"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RSfjKqAq31DlY5odTWWXIL"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Корнеплоды</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9ckTHfraXFkdCIcvHx32Ph -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9ckTHfraXFkdCIcvHx32Ph">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RaEDjL5GDyF9r7pBR6Y8t9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9uB23tjy3ppeIImgaoFNuU"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Сладости</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9nnkFIQKEJZi2mslqGnXXo -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9nnkFIQKEJZi2mslqGnXXo">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ckTHfraXFkdCIcvHx32Ph"/>
+        <rdfs:label>Варенье и джемы</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9oO5Sa8oKfGh30hg9Z1WJE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9oO5Sa8oKfGh30hg9Z1WJE">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ckTHfraXFkdCIcvHx32Ph"/>
+        <rdfs:label>Конфеты</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9p9yNXBT02HmVujGO0GNWV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9p9yNXBT02HmVujGO0GNWV">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RaEDjL5GDyF9r7pBR6Y8t9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9uB23tjy3ppeIImgaoFNuU"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Овощи</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9uB23tjy3ppeIImgaoFNuU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9uB23tjy3ppeIImgaoFNuU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCuM2EFbnu94KJzvKccYqSL"/>
+        <rdfs:label>Сухое место</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCuM2EFbnu94KJzvKccYqSL"/>
+        <rdfs:label>Холодильник</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBKMXlWXIc9bjyHYkSEDlfM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBKMXlWXIc9bjyHYkSEDlfM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R45oY47EqQYTod6qDdGjne"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RG1XS9IluPsEO8E6B4QuWP"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RSfjKqAq31DlY5odTWWXIL"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Замороженная рыба</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCSFv0DASuaTYxvwtgaeFhK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCSFv0DASuaTYxvwtgaeFhK">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RaEDjL5GDyF9r7pBR6Y8t9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Ягоды</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCSZoABcGoFLP2m7MfDQFvI -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCSZoABcGoFLP2m7MfDQFvI">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7ojm4KKHO41ci6p5NmU6yX"/>
+        <rdfs:label>Колбасы и сосиски</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCd9x7yGnFkpCRm29vEHMlD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCd9x7yGnFkpCRm29vEHMlD">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R45oY47EqQYTod6qDdGjne"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R76hJLdnAr5O1MsZruwPIaa"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Замороженные овощи</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCuM2EFbnu94KJzvKccYqSL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCuM2EFbnu94KJzvKccYqSL">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>Способы хранения</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCw3XOu5K7U4lhSF62MGEXN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCw3XOu5K7U4lhSF62MGEXN">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RD2zvgSNEVOPSjYUMwBY2QJ"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Масло</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCyr3CxEXcqKWGxHGCWStBO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCyr3CxEXcqKWGxHGCWStBO">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RMMl4dJFLNqpah1RgShk2d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R76hJLdnAr5O1MsZruwPIaa"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Крупы</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD02hnVleDBSEdBnl1n3O5N -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RD02hnVleDBSEdBnl1n3O5N">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8brDsOJULXGatmYNOcbgKo"/>
+        <rdfs:label>Экзотические</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD2zvgSNEVOPSjYUMwBY2QJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RD2zvgSNEVOPSjYUMwBY2QJ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RaEDjL5GDyF9r7pBR6Y8t9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Молочные продукты</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDFIZRA5YGnj9NyDdlurATy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDFIZRA5YGnj9NyDdlurATy">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RaEDjL5GDyF9r7pBR6Y8t9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RG1XS9IluPsEO8E6B4QuWP"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RSfjKqAq31DlY5odTWWXIL"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Рыба</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RG1XS9IluPsEO8E6B4QuWP -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RG1XS9IluPsEO8E6B4QuWP">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8PMBKZakzJQwWE06v7dtMn"/>
+        <rdfs:label>Жарка</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RIltoHISKjxTljwBQ3Rud1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RIltoHISKjxTljwBQ3Rud1">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RD2zvgSNEVOPSjYUMwBY2QJ"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Молоко</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RIt6MAZv4Kui70Ny4xQGdk -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RIt6MAZv4Kui70Ny4xQGdk">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RD2zvgSNEVOPSjYUMwBY2QJ"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Сыры</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RMMl4dJFLNqpah1RgShk2d -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RMMl4dJFLNqpah1RgShk2d">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RaEDjL5GDyF9r7pBR6Y8t9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9uB23tjy3ppeIImgaoFNuU"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Бакалея</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RN0aOArEfBfDtEqSgbfYPB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RN0aOArEfBfDtEqSgbfYPB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RMMl4dJFLNqpah1RgShk2d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Специи</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RQp528HGcjvAWaWOjLKdi1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RQp528HGcjvAWaWOjLKdi1">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8brDsOJULXGatmYNOcbgKo"/>
+        <rdfs:label>Цитрусовые</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RR0TYBi7SeDYyaOvQ8A4TZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RR0TYBi7SeDYyaOvQ8A4TZ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RS0QVvlUuBt47MTBj4NfdO"/>
+        <rdfs:label>Курица</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RS0QVvlUuBt47MTBj4NfdO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RS0QVvlUuBt47MTBj4NfdO">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7ojm4KKHO41ci6p5NmU6yX"/>
+        <rdfs:label>Птица</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RSfjKqAq31DlY5odTWWXIL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RSfjKqAq31DlY5odTWWXIL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8PMBKZakzJQwWE06v7dtMn"/>
+        <rdfs:label>Запекание</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RVNoSt3FbZBS3x69y56TxB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RVNoSt3FbZBS3x69y56TxB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R45oY47EqQYTod6qDdGjne"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R76hJLdnAr5O1MsZruwPIaa"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Замороженные фрукты и ягоды</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RWmsOdzQCWOhhgPsOc3tax -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RWmsOdzQCWOhhgPsOc3tax">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDFIZRA5YGnj9NyDdlurATy"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Солёная рыба</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RaEDjL5GDyF9r7pBR6Y8t9 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RaEDjL5GDyF9r7pBR6Y8t9">
+        <rdfs:label>Продукты</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RlVnXmMbRSuPKap4yHfeOC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RlVnXmMbRSuPKap4yHfeOC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ckTHfraXFkdCIcvHx32Ph"/>
+        <rdfs:label>Печенье и вафли</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RsIYPLsHeaBxlLnxXsdqld -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RsIYPLsHeaBxlLnxXsdqld">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RaEDjL5GDyF9r7pBR6Y8t9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R76hJLdnAr5O1MsZruwPIaa"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RG1XS9IluPsEO8E6B4QuWP"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Яйца</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RtY6fMUKemgkE5l4GtYPmf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RtY6fMUKemgkE5l4GtYPmf">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ckTHfraXFkdCIcvHx32Ph"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Торты и пирожные</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Ryk2253E7Qzsp9ON1kUCjQ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Ryk2253E7Qzsp9ON1kUCjQ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9JkguUjmOC0mUwKmawAWib"/>
+        <rdfs:label>Алкогольные напитки</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R1n76RyPxXp4oQRPwIBf0o -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R1n76RyPxXp4oQRPwIBf0o">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7aS33EFaLO42gqZYUpVgbM"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9uB23tjy3ppeIImgaoFNuU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Фасоль</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R2QZhnAcDMjtHxIbKq5Px4 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R2QZhnAcDMjtHxIbKq5Px4">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCyr3CxEXcqKWGxHGCWStBO"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9uB23tjy3ppeIImgaoFNuU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Гречка</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R3hedlKRfuvC3QIxge4xzm -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R3hedlKRfuvC3QIxge4xzm">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7gxcnnrTMbsXxAp9LtJBcm"/>
+        <rdfs:label>Цельнозерновой хлеб</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R5O0jb02XLkm5Gua24C3LN -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R5O0jb02XLkm5Gua24C3LN">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R85G3YPE4KK1vb2emUTPP8h"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Натуральный йогурт</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R5vI2KBM4T7OM3GL9CrDk2 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R5vI2KBM4T7OM3GL9CrDk2">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RIt6MAZv4Kui70Ny4xQGdk"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Бри</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R71QiWlEQgVT9OCyWTXPnuS -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R71QiWlEQgVT9OCyWTXPnuS">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RIt6MAZv4Kui70Ny4xQGdk"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Творожный сыр</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R780N8ioVH9lzOCnLIeLG6b -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R780N8ioVH9lzOCnLIeLG6b">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCw3XOu5K7U4lhSF62MGEXN"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Топленое масло</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7Nf8CRuG1JEfrRM6aEF29e -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7Nf8CRuG1JEfrRM6aEF29e">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7qukum1RnVh97TR5kOc7gW"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Тунец</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7RJKKQoc1iVj4GKPQi4E2N -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7RJKKQoc1iVj4GKPQi4E2N">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7xNL3PwLVUi6Wx711DAvqD"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9uB23tjy3ppeIImgaoFNuU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Финики</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7Yaa0t12tZCGYGLiWjmgoA -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7Yaa0t12tZCGYGLiWjmgoA">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RsIYPLsHeaBxlLnxXsdqld"/>
+        <rdfs:label>Куриные яйца</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7dP5iHP0vqubbYYsObjOkz -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7dP5iHP0vqubbYYsObjOkz">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7ef9THmLkZH7BmS4J0m4dD"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RR0TYBi7SeDYyaOvQ8A4TZ"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RG1XS9IluPsEO8E6B4QuWP"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RSfjKqAq31DlY5odTWWXIL"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8cAXl8EcxOLKkKtKctPIXU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Грудка</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7dW3vWSqDTPxauaKPjmv7n -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7dW3vWSqDTPxauaKPjmv7n">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RN0aOArEfBfDtEqSgbfYPB"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9uB23tjy3ppeIImgaoFNuU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Кардамон</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7gXrp9yDC6zOEvo55hO5z9 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7gXrp9yDC6zOEvo55hO5z9">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9oO5Sa8oKfGh30hg9Z1WJE"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9uB23tjy3ppeIImgaoFNuU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Фруктовые конфеты</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7lPws6maHqdNNDAc4sOqjf -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7lPws6maHqdNNDAc4sOqjf">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RtY6fMUKemgkE5l4GtYPmf"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Профитроли</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7miDECe6r8hzhslN3Hc5Eq -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7miDECe6r8hzhslN3Hc5Eq">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9nnkFIQKEJZi2mslqGnXXo"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Смородиновое варенье</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7q3I9hFvzhQu5YbUPTGxW2 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7q3I9hFvzhQu5YbUPTGxW2">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9TuUmt1i5X2JVOua7Ec8vp"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Белый шоколад</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7qKKbsrnAD4mIWniJzQcbR -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7qKKbsrnAD4mIWniJzQcbR">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9WTFmRbfqpG4KCqS93bAzr"/>
+        <rdfs:label>Креветки</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7r2BxtjEWlCkp86XWcuLAQ -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7r2BxtjEWlCkp86XWcuLAQ">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8d8vuyKFvSkpvh5teEPVzV"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RG1XS9IluPsEO8E6B4QuWP"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RSfjKqAq31DlY5odTWWXIL"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8cAXl8EcxOLKkKtKctPIXU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Лопатка</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7ykfeRFQqLeCQ1G1rWZXyb -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7ykfeRFQqLeCQ1G1rWZXyb">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9bKTSqJqoqPWynr3Y33shD"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7afUGd8Qnjm5L7Iw1q68Yx"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Картофель</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R80JHi7eIcDbolLhmHAeFcN -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R80JHi7eIcDbolLhmHAeFcN">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RlVnXmMbRSuPKap4yHfeOC"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9uB23tjy3ppeIImgaoFNuU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Песочное печенье</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R83KXkdNYMfHzaEDFAy3Jms -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R83KXkdNYMfHzaEDFAy3Jms">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8xlZCWtX5S3lt7VgBcXXsG"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Петрушка</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R89GCpCfxy6exyEeCS9RosF -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R89GCpCfxy6exyEeCS9RosF">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9WTFmRbfqpG4KCqS93bAzr"/>
+        <rdfs:label>Кальмары</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8C0y7ZjkjkIRoFDnEOdoqI -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8C0y7ZjkjkIRoFDnEOdoqI">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8xlZCWtX5S3lt7VgBcXXsG"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Руккола</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8E7Dwy3VqDsfywz3C8lsQL -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8E7Dwy3VqDsfywz3C8lsQL">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9bKTSqJqoqPWynr3Y33shD"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7afUGd8Qnjm5L7Iw1q68Yx"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Свёкла</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8EFPxtsXSSpn8WWb2cmpUs -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8EFPxtsXSSpn8WWb2cmpUs">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7qukum1RnVh97TR5kOc7gW"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Шпроты</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8ERi1FJNQYmTZWNhHlSlRj -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8ERi1FJNQYmTZWNhHlSlRj">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8zJOKkR0cIuL2hQksxpqzv"/>
+        <rdfs:label>Травяной чай</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8JVddPFme1pXY9nZLiFAkg -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8JVddPFme1pXY9nZLiFAkg">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7aS33EFaLO42gqZYUpVgbM"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9uB23tjy3ppeIImgaoFNuU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Нут</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8S2mzqHLxJPnJ82UM6KLKg -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8S2mzqHLxJPnJ82UM6KLKg">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBKMXlWXIc9bjyHYkSEDlfM"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8cAXl8EcxOLKkKtKctPIXU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Палтус</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8d90QT1P40gFyJOrGOR8r8 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8d90QT1P40gFyJOrGOR8r8">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCSFv0DASuaTYxvwtgaeFhK"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RVNoSt3FbZBS3x69y56TxB"/>
+        <rdfs:label>Малина</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8eTcNF7ICJRCgaJTNFn8Cw -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8eTcNF7ICJRCgaJTNFn8Cw">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RQp528HGcjvAWaWOjLKdi1"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9uB23tjy3ppeIImgaoFNuU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Лайм</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8i8vyh1VJ8INgWdVMhEm5S -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8i8vyh1VJ8INgWdVMhEm5S">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCSZoABcGoFLP2m7MfDQFvI"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RG1XS9IluPsEO8E6B4QuWP"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Докторская колбаса</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8lJ8iKss0hlPHQ4lgKiYEp -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8lJ8iKss0hlPHQ4lgKiYEp">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8NXMV1c08TiCca7zaQ8IMP"/>
+        <rdfs:label>Миндаль</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8nhGZN1Z17RStKMGQlUWHT -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8nhGZN1Z17RStKMGQlUWHT">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9oO5Sa8oKfGh30hg9Z1WJE"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Шоколадные конфеты</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8y26kbEEmczKOTpmoa4XOq -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8y26kbEEmczKOTpmoa4XOq">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9bKTSqJqoqPWynr3Y33shD"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Кабачок</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8y4aC0xk50mq6spDw6ZKXV -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8y4aC0xk50mq6spDw6ZKXV">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7hXIJI4thNQN1AUFFChYs3"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Ряженка</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8zbjGDOhPAsE57nc3fdjBU -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8zbjGDOhPAsE57nc3fdjBU">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8xlZCWtX5S3lt7VgBcXXsG"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Кинза</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R934e5SiE4SoAjglW0UGTCI -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R934e5SiE4SoAjglW0UGTCI">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RQp528HGcjvAWaWOjLKdi1"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Мандарин</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R94D56PyYflLJ8dn4jRQFcF -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R94D56PyYflLJ8dn4jRQFcF">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8NXMV1c08TiCca7zaQ8IMP"/>
+        <rdfs:label>Макадамия</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9AiIAbaaiath2fmeSJIsJn -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9AiIAbaaiath2fmeSJIsJn">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7PF8WiPWs8aMaHWX1dcH8H"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Миндальное молоко</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9KclB9KO8MrqCYcZjdLoQ1 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9KclB9KO8MrqCYcZjdLoQ1">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7aS33EFaLO42gqZYUpVgbM"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9uB23tjy3ppeIImgaoFNuU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Горох</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9Km1SMriC3uyD3aHgWk0KL -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9Km1SMriC3uyD3aHgWk0KL">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9XC4RUsXGv6rrT8mins0zF"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8cAXl8EcxOLKkKtKctPIXU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Фруктовый лёд</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9MhFnkcP76YIPwMkQZgm4I -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9MhFnkcP76YIPwMkQZgm4I">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/Ryk2253E7Qzsp9ON1kUCjQ"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7afUGd8Qnjm5L7Iw1q68Yx"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Виски</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9MugoKiURQX7YDqmkYj2Nh -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9MugoKiURQX7YDqmkYj2Nh">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RlVnXmMbRSuPKap4yHfeOC"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9uB23tjy3ppeIImgaoFNuU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Бельгийские вафли</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9QMZf4v7S8bJxEifArp4XE -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9QMZf4v7S8bJxEifArp4XE">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8ZT9G2ePmnYrmJi5cGMwM"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7afUGd8Qnjm5L7Iw1q68Yx"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Холодный чай</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9Sq6bFQWsJMidOA4EL52lI -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9Sq6bFQWsJMidOA4EL52lI">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCyr3CxEXcqKWGxHGCWStBO"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9uB23tjy3ppeIImgaoFNuU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Пшено</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9VKap1alf7w2jd7ycoZXZt -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9VKap1alf7w2jd7ycoZXZt">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8NXMV1c08TiCca7zaQ8IMP"/>
+        <rdfs:label>Кешью</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9XaSZt3Vzu6Ty73G7PoqPO -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9XaSZt3Vzu6Ty73G7PoqPO">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RVNoSt3FbZBS3x69y56TxB"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Абрикос</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9ZChhc9gJfuk3dof2wZBSE -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9ZChhc9gJfuk3dof2wZBSE">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R5IDGHfBL3bbdB2GXOFSsS"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBKMXlWXIc9bjyHYkSEDlfM"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDFIZRA5YGnj9NyDdlurATy"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RWmsOdzQCWOhhgPsOc3tax"/>
+        <rdfs:label>Скумбрия</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9gVXx2rIx9JMBTtetCMpH5 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9gVXx2rIx9JMBTtetCMpH5">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8GtUMVTPcQ8C3ofgtG6jjF"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9uB23tjy3ppeIImgaoFNuU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Вермишель</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9kZlzFdTY8txLLwtMoiie -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9kZlzFdTY8txLLwtMoiie">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCSZoABcGoFLP2m7MfDQFvI"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Салями</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9lzX4UEZjzfL4At9I2oVKa -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9lzX4UEZjzfL4At9I2oVKa">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RlVnXmMbRSuPKap4yHfeOC"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9uB23tjy3ppeIImgaoFNuU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Овсяное печенье</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9m8EW1etvnTchzNaqm3TB5 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9m8EW1etvnTchzNaqm3TB5">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCSFv0DASuaTYxvwtgaeFhK"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RVNoSt3FbZBS3x69y56TxB"/>
+        <rdfs:label>Клубника</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9texH2E2YTiDuKkrb2GhOc -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9texH2E2YTiDuKkrb2GhOc">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R5IDGHfBL3bbdB2GXOFSsS"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDFIZRA5YGnj9NyDdlurATy"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RWmsOdzQCWOhhgPsOc3tax"/>
+        <rdfs:label>Сельдь</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9u9XXk8VDTzETayPU66BKG -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9u9XXk8VDTzETayPU66BKG">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8xlZCWtX5S3lt7VgBcXXsG"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Укроп</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9uIRTgWzDV6kOSsJ4yLgCa -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9uIRTgWzDV6kOSsJ4yLgCa">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7qukum1RnVh97TR5kOc7gW"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Сардины</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9xjUc1T275NnuvS4eguKvN -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9xjUc1T275NnuvS4eguKvN">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8ZT9G2ePmnYrmJi5cGMwM"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7afUGd8Qnjm5L7Iw1q68Yx"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Вода</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB4SFc2uYPPhUIAQxYn1V9M -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RB4SFc2uYPPhUIAQxYn1V9M">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7hXIJI4thNQN1AUFFChYs3"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Кефир</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB64k0WbFbUdnneuqm8KlnL -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RB64k0WbFbUdnneuqm8KlnL">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBKMXlWXIc9bjyHYkSEDlfM"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDFIZRA5YGnj9NyDdlurATy"/>
+        <rdfs:label>Дорадо</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB66HQPkI970DuxDXnw3g20 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RB66HQPkI970DuxDXnw3g20">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9TuUmt1i5X2JVOua7Ec8vp"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Шоколадные батончики</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB79RcAgkN8NHCIna68SXVb -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RB79RcAgkN8NHCIna68SXVb">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8ZT9G2ePmnYrmJi5cGMwM"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/Ryk2253E7Qzsp9ON1kUCjQ"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7afUGd8Qnjm5L7Iw1q68Yx"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Шампанское</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBG5Ltl4HE22phUmHvYRGbk -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBG5Ltl4HE22phUmHvYRGbk">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8zJOKkR0cIuL2hQksxpqzv"/>
+        <rdfs:label>Улун</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBHWqFc1vq67mrqNZGiPYXI -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBHWqFc1vq67mrqNZGiPYXI">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R85G3YPE4KK1vb2emUTPP8h"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Греческий йогурт</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBKCuaHX4fayUA3Qe5SZwMV -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBKCuaHX4fayUA3Qe5SZwMV">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R77CloLc7PjbOBLA7tI4XC0"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7ef9THmLkZH7BmS4J0m4dD"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RR0TYBi7SeDYyaOvQ8A4TZ"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RG1XS9IluPsEO8E6B4QuWP"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RSfjKqAq31DlY5odTWWXIL"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8cAXl8EcxOLKkKtKctPIXU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Фарш</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBLsh31utMQvU1YZZ2zbQMV -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBLsh31utMQvU1YZZ2zbQMV">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9ANamx5baV599mtyUL0woL"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Барбекю</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBXuf6jMSVUGL9eKydNktOA -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBXuf6jMSVUGL9eKydNktOA">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R85G3YPE4KK1vb2emUTPP8h"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Пробиотический йогурт</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBaSv7upTE7oliUjDP3aNAh -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBaSv7upTE7oliUjDP3aNAh">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7PF8WiPWs8aMaHWX1dcH8H"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Сыр Тофу</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBf1Bl8gJRRhgc0s5VPXTTo -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBf1Bl8gJRRhgc0s5VPXTTo">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7xNL3PwLVUi6Wx711DAvqD"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9uB23tjy3ppeIImgaoFNuU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Курага</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBgKdIFbzks6vspysQxRN6W -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBgKdIFbzks6vspysQxRN6W">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7PF8WiPWs8aMaHWX1dcH8H"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R85G3YPE4KK1vb2emUTPP8h"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Безлактозный йогурт</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBmSAz7vRVae7EbtWz5rEJP -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBmSAz7vRVae7EbtWz5rEJP">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8ZT9G2ePmnYrmJi5cGMwM"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7afUGd8Qnjm5L7Iw1q68Yx"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Лимонад</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBn0zyRAl6vtCsaim0VYOV3 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBn0zyRAl6vtCsaim0VYOV3">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RlVnXmMbRSuPKap4yHfeOC"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9uB23tjy3ppeIImgaoFNuU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Голландские вафли</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBnf7BAAxe1dDhrmhbRVO9q -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBnf7BAAxe1dDhrmhbRVO9q">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8xlZCWtX5S3lt7VgBcXXsG"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Шпинат</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBrJuEBfeCZjuzMzQVdA5I8 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBrJuEBfeCZjuzMzQVdA5I8">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9nnkFIQKEJZi2mslqGnXXo"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Клубничное варенье</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBvdQhUpYLr0iLnF6Lqizfa -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBvdQhUpYLr0iLnF6Lqizfa">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RQp528HGcjvAWaWOjLKdi1"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Апельсин</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBxjQJvG3kaqRMLP4Rb8mbW -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBxjQJvG3kaqRMLP4Rb8mbW">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8NXMV1c08TiCca7zaQ8IMP"/>
+        <rdfs:label>Грецкий орех</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBzE3230vSEV5l0hDI6rBtP -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBzE3230vSEV5l0hDI6rBtP">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9bKTSqJqoqPWynr3Y33shD"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCd9x7yGnFkpCRm29vEHMlD"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7afUGd8Qnjm5L7Iw1q68Yx"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Морковь</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC1tM8SKlZwFBE5HjY3MWqg -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC1tM8SKlZwFBE5HjY3MWqg">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7aS33EFaLO42gqZYUpVgbM"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9uB23tjy3ppeIImgaoFNuU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Чечевица</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC2CXn1LwwSXsMTNflYN7xh -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC2CXn1LwwSXsMTNflYN7xh">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9ANamx5baV599mtyUL0woL"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Майонез</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC7PbgWhiwNC15kNMPYANyB -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC7PbgWhiwNC15kNMPYANyB">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RIltoHISKjxTljwBQ3Rud1"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Козье молоко</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC83kowykf2bAeYKhdaJA4x -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC83kowykf2bAeYKhdaJA4x">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7xNL3PwLVUi6Wx711DAvqD"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9uB23tjy3ppeIImgaoFNuU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Изюм</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCBJ2uDIAF31k4lYUsa6y6E -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCBJ2uDIAF31k4lYUsa6y6E">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCw3XOu5K7U4lhSF62MGEXN"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Сливочное масло</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCBoBbaFRrVToJEKEAWMRYd -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCBoBbaFRrVToJEKEAWMRYd">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCSFv0DASuaTYxvwtgaeFhK"/>
+        <rdfs:label>Ежевика</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCDooJKG6YQerl0LzHGUsfN -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCDooJKG6YQerl0LzHGUsfN">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R88SCpCoWR9xnoEz63hqOoT"/>
+        <rdfs:label>Растворимый кофе</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCFYRgTO72e727l1nznnYmw -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCFYRgTO72e727l1nznnYmw">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RN0aOArEfBfDtEqSgbfYPB"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9uB23tjy3ppeIImgaoFNuU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Корица</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCGHW3r8oNBpCwDHjLERCCc -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCGHW3r8oNBpCwDHjLERCCc">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RtY6fMUKemgkE5l4GtYPmf"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Красный бархат</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCGmgq8n9uOEjB5dvgbeg1r -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCGmgq8n9uOEjB5dvgbeg1r">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R77CloLc7PjbOBLA7tI4XC0"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RG1XS9IluPsEO8E6B4QuWP"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8cAXl8EcxOLKkKtKctPIXU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Рибай</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCPLBA1zWEJxTCLox874vH3 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCPLBA1zWEJxTCLox874vH3">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7gxcnnrTMbsXxAp9LtJBcm"/>
+        <rdfs:label>Багет</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCQpCL8XPpI0ppEg5VFZnlH -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCQpCL8XPpI0ppEg5VFZnlH">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9TuUmt1i5X2JVOua7Ec8vp"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Горький шоколад</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCT5Jy20xRNMuVzEuMGd1NO -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCT5Jy20xRNMuVzEuMGd1NO">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RtY6fMUKemgkE5l4GtYPmf"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Эклеры</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCYygg3dqFxjmHkRdQ8cmFQ -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCYygg3dqFxjmHkRdQ8cmFQ">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RN0aOArEfBfDtEqSgbfYPB"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9uB23tjy3ppeIImgaoFNuU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Перец молотый</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RChXwNfW5Jwe4rL5JCwC31k -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RChXwNfW5Jwe4rL5JCwC31k">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RsIYPLsHeaBxlLnxXsdqld"/>
+        <rdfs:label>Страусиные яйца</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCo6U805bHxESn8r8whWxzS -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCo6U805bHxESn8r8whWxzS">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7PF8WiPWs8aMaHWX1dcH8H"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Кокосовое молоко</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCqZJmmNCL9RE1Vh6XlxQdq -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCqZJmmNCL9RE1Vh6XlxQdq">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RIt6MAZv4Kui70Ny4xQGdk"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Моцарелла</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCviXhjCSo5f2rREFk5BHY4 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCviXhjCSo5f2rREFk5BHY4">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCSFv0DASuaTYxvwtgaeFhK"/>
+        <rdfs:label>Черника</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDAJwS5ssWTkrFooW518gjJ -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDAJwS5ssWTkrFooW518gjJ">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9oO5Sa8oKfGh30hg9Z1WJE"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9uB23tjy3ppeIImgaoFNuU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Леденцы</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDAcYVjlNhmRMwm88c7dUq5 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDAcYVjlNhmRMwm88c7dUq5">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8GtUMVTPcQ8C3ofgtG6jjF"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9uB23tjy3ppeIImgaoFNuU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Спагетти</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDBc3RV5lynKERtV2ojwjT9 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDBc3RV5lynKERtV2ojwjT9">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8ZT9G2ePmnYrmJi5cGMwM"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/Ryk2253E7Qzsp9ON1kUCjQ"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7afUGd8Qnjm5L7Iw1q68Yx"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Пиво</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDG6frzuljIJUdvFomd7txB -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDG6frzuljIJUdvFomd7txB">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RlVnXmMbRSuPKap4yHfeOC"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9uB23tjy3ppeIImgaoFNuU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Имбирное печенье</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDHqbQUuWqFOaOT4psEhfuS -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDHqbQUuWqFOaOT4psEhfuS">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9ANamx5baV599mtyUL0woL"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Кетчуп</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDILEpds9hT2AgjgyE2REQr -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDILEpds9hT2AgjgyE2REQr">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7hXIJI4thNQN1AUFFChYs3"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Сметана</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDJ3jPyti70OsX7vtv5vDJA -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDJ3jPyti70OsX7vtv5vDJA">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R77CloLc7PjbOBLA7tI4XC0"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7ef9THmLkZH7BmS4J0m4dD"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8d8vuyKFvSkpvh5teEPVzV"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RR0TYBi7SeDYyaOvQ8A4TZ"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RG1XS9IluPsEO8E6B4QuWP"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RSfjKqAq31DlY5odTWWXIL"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8cAXl8EcxOLKkKtKctPIXU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Филе</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDJjx79e1lcyylAtAO9mQrB -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDJjx79e1lcyylAtAO9mQrB">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9TuUmt1i5X2JVOua7Ec8vp"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Молочный шоколад</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDKWhsWTHMkDA9ijPbhuLNS -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDKWhsWTHMkDA9ijPbhuLNS">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7xNL3PwLVUi6Wx711DAvqD"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9uB23tjy3ppeIImgaoFNuU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Урюк</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDOWa9I4YwjuEPQjRO2jq0D -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDOWa9I4YwjuEPQjRO2jq0D">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RVNoSt3FbZBS3x69y56TxB"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Вишня</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDSkJv4cMn4cXtkwUGqldnJ -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDSkJv4cMn4cXtkwUGqldnJ">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8zJOKkR0cIuL2hQksxpqzv"/>
+        <rdfs:label>Чёрный чай</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDTHKqDFBizfCvOnaoaaE5w -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDTHKqDFBizfCvOnaoaaE5w">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RtY6fMUKemgkE5l4GtYPmf"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Медовик</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDUNqrP41QdI0Pem1R5M6TB -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDUNqrP41QdI0Pem1R5M6TB">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RD02hnVleDBSEdBnl1n3O5N"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Маракуйя</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDXvEmhovcEzwH4qzCEy6US -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDXvEmhovcEzwH4qzCEy6US">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RQp528HGcjvAWaWOjLKdi1"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Грейпфрут</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDYU4BL7f5mbry7EcvRV0E5 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDYU4BL7f5mbry7EcvRV0E5">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCd9x7yGnFkpCRm29vEHMlD"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8cAXl8EcxOLKkKtKctPIXU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Овощная смесь</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDaOWblH4vg47zkZTCZuTlK -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDaOWblH4vg47zkZTCZuTlK">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8ZT9G2ePmnYrmJi5cGMwM"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7afUGd8Qnjm5L7Iw1q68Yx"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Сок</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDbnQ7uIFJSjYZsBlthYQgb -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDbnQ7uIFJSjYZsBlthYQgb">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7gxcnnrTMbsXxAp9LtJBcm"/>
+        <rdfs:label>Чиабатта</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDdHc7lKAXCQE913DSzd4vn -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDdHc7lKAXCQE913DSzd4vn">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCyr3CxEXcqKWGxHGCWStBO"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9uB23tjy3ppeIImgaoFNuU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Рис</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDet6lF4KQLfGjaIvBwbeG5 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDet6lF4KQLfGjaIvBwbeG5">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9XC4RUsXGv6rrT8mins0zF"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8cAXl8EcxOLKkKtKctPIXU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Эскимо</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDfc1OarTGH5dyFW0ewEDgO -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDfc1OarTGH5dyFW0ewEDgO">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R5IDGHfBL3bbdB2GXOFSsS"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RWmsOdzQCWOhhgPsOc3tax"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RG1XS9IluPsEO8E6B4QuWP"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Треска</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDqYADTvLIzKH2N95tXt1Hc -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDqYADTvLIzKH2N95tXt1Hc">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RN0aOArEfBfDtEqSgbfYPB"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9uB23tjy3ppeIImgaoFNuU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Куркума</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDwKYzYS6yqR4EMfjpsHYUY -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDwKYzYS6yqR4EMfjpsHYUY">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RS0QVvlUuBt47MTBj4NfdO"/>
+        <rdfs:label>Перепел</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDyuMLxqYZzxHyiwUqZ6qO4 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDyuMLxqYZzxHyiwUqZ6qO4">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9WTFmRbfqpG4KCqS93bAzr"/>
+        <rdfs:label>Устрицы</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RF8YHZdyxhCcm3kEHnS8kn -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RF8YHZdyxhCcm3kEHnS8kn">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7gxcnnrTMbsXxAp9LtJBcm"/>
+        <rdfs:label>Круассаны</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RGPBlPpZG4dn3jqK2fEiN2 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RGPBlPpZG4dn3jqK2fEiN2">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9oO5Sa8oKfGh30hg9Z1WJE"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9uB23tjy3ppeIImgaoFNuU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Карамельные конфеты</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RGdtKJieDTahHVh4ZhBc4e -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RGdtKJieDTahHVh4ZhBc4e">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RR0TYBi7SeDYyaOvQ8A4TZ"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RG1XS9IluPsEO8E6B4QuWP"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RSfjKqAq31DlY5odTWWXIL"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8cAXl8EcxOLKkKtKctPIXU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Крылышки</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RHrvlzouP80kny28vkzJfv -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RHrvlzouP80kny28vkzJfv">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7gxcnnrTMbsXxAp9LtJBcm"/>
+        <rdfs:label>Лаваш</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RL9YqKcrxt8oZyDnTLqq5h -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RL9YqKcrxt8oZyDnTLqq5h">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RD02hnVleDBSEdBnl1n3O5N"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Ананас</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RLBBWzrVK8DrrgScvGSmZo -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RLBBWzrVK8DrrgScvGSmZo">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8zJOKkR0cIuL2hQksxpqzv"/>
+        <rdfs:label>Зелёный чай</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RO4e4FyzZM9TYwwai1UP5s -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RO4e4FyzZM9TYwwai1UP5s">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RtY6fMUKemgkE5l4GtYPmf"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Наполеон</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RPRcE5TxFK5nClhObs47YC -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RPRcE5TxFK5nClhObs47YC">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9nnkFIQKEJZi2mslqGnXXo"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Малиновое варенье</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RPioWq27tE8NQf0Y3HzlNl -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RPioWq27tE8NQf0Y3HzlNl">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RD02hnVleDBSEdBnl1n3O5N"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Манго</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RRQWPBibi9Eq0TfmYeKOzt -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RRQWPBibi9Eq0TfmYeKOzt">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RQp528HGcjvAWaWOjLKdi1"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9uB23tjy3ppeIImgaoFNuU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Помело</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RRp5y51PkiOTEund6wZweT -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RRp5y51PkiOTEund6wZweT">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/Ryk2253E7Qzsp9ON1kUCjQ"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7afUGd8Qnjm5L7Iw1q68Yx"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Вино</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RV9O9dbYE0RHVEqy1WRgrC -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RV9O9dbYE0RHVEqy1WRgrC">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8d8vuyKFvSkpvh5teEPVzV"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RG1XS9IluPsEO8E6B4QuWP"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RSfjKqAq31DlY5odTWWXIL"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8cAXl8EcxOLKkKtKctPIXU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Шея</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RWgmskf8nnCYDABqyYGgPO -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RWgmskf8nnCYDABqyYGgPO">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7hXIJI4thNQN1AUFFChYs3"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Творог</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RXxFJ6DeZQR9pLSSyw8iyd -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RXxFJ6DeZQR9pLSSyw8iyd">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9p9yNXBT02HmVujGO0GNWV"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCd9x7yGnFkpCRm29vEHMlD"/>
+        <rdfs:label>Брокколи</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RYAg2X981HS5BfWhDRTh3H -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RYAg2X981HS5BfWhDRTh3H">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R88SCpCoWR9xnoEz63hqOoT"/>
+        <rdfs:label>Зерновой кофе</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RZ873vHWGQA1J3TN3uO6Ch -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RZ873vHWGQA1J3TN3uO6Ch">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCSZoABcGoFLP2m7MfDQFvI"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Сервелат</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RZYWOziVYtzNu7nnmgDUki -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RZYWOziVYtzNu7nnmgDUki">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8NXMV1c08TiCca7zaQ8IMP"/>
+        <rdfs:label>Пекан</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RamvwEUWql7ctJrNIbgq4o -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RamvwEUWql7ctJrNIbgq4o">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCw3XOu5K7U4lhSF62MGEXN"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8cAXl8EcxOLKkKtKctPIXU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Маргарин</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RdS5GplKJJBq9FRzUwxjFm -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RdS5GplKJJBq9FRzUwxjFm">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RS0QVvlUuBt47MTBj4NfdO"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RG1XS9IluPsEO8E6B4QuWP"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RSfjKqAq31DlY5odTWWXIL"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8cAXl8EcxOLKkKtKctPIXU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Утка</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RdcRCRjeXp6CSWqjcJj3ZH -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RdcRCRjeXp6CSWqjcJj3ZH">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RD02hnVleDBSEdBnl1n3O5N"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Папайя</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RdifcnBuRSlzEcQUJ5o3I9 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RdifcnBuRSlzEcQUJ5o3I9">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RIt6MAZv4Kui70Ny4xQGdk"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Чеддер</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RhpIxZYw4cupS93w085gdH -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RhpIxZYw4cupS93w085gdH">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9XC4RUsXGv6rrT8mins0zF"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8cAXl8EcxOLKkKtKctPIXU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Пломбир в стаканчике</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Ri1fVAvd1h4MpbVDqbiP9R -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Ri1fVAvd1h4MpbVDqbiP9R">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9WTFmRbfqpG4KCqS93bAzr"/>
+        <rdfs:label>Мидии</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rj0JK1wlCysMeDs5XUpKxP -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Rj0JK1wlCysMeDs5XUpKxP">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RIt6MAZv4Kui70Ny4xQGdk"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Фета</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RjvWpURXyismVVX8L1PyjL -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RjvWpURXyismVVX8L1PyjL">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8GtUMVTPcQ8C3ofgtG6jjF"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9uB23tjy3ppeIImgaoFNuU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Перья</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RlYMUE9bwE43OhIZrMkXBW -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RlYMUE9bwE43OhIZrMkXBW">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCSZoABcGoFLP2m7MfDQFvI"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Копченая колбаса</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Ro7OGdIOnKWdhEPcgrjZuI -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Ro7OGdIOnKWdhEPcgrjZuI">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R88SCpCoWR9xnoEz63hqOoT"/>
+        <rdfs:label>Молотый кофе</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RsNjyspKDC6tudlrwWXmNu -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RsNjyspKDC6tudlrwWXmNu">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RsIYPLsHeaBxlLnxXsdqld"/>
+        <rdfs:label>Перепелиные яйца</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RswPnmWiDBHfjU9HfouCzF -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RswPnmWiDBHfjU9HfouCzF">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7xNL3PwLVUi6Wx711DAvqD"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9uB23tjy3ppeIImgaoFNuU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Чернослив</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RuKj1lEieVKhxe10iR5Wl -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RuKj1lEieVKhxe10iR5Wl">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RtY6fMUKemgkE5l4GtYPmf"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7pLzd5if4sKzjOmlJjlELv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8fQ29sR44x7iaL6AAz0BDp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Чизкейк</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rzj8fchZdga7Z2t0iSW5Jf -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Rzj8fchZdga7Z2t0iSW5Jf">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RIltoHISKjxTljwBQ3Rud1"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwrsRllGoYz42ADaSbadB6"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB4QXaMwcyG8nSMOgKWCBKs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Коровье молоко</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
